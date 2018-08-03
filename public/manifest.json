@@ -1,0 +1,23 @@
+{
+  "name": "Push Notifications IBM",
+  "gcm_sender_id": "6xxxxxx770",
+   "start_url": "./index.html",
+   "display": "standalone",
+	"orientation": "portrait",
+	"short_name": "Demo PWA",
+	"icons": [
+		{
+			"src": "./source/pwa-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "./source/pwa-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+   "permissions": [
+          "storage"
+        ]
+}

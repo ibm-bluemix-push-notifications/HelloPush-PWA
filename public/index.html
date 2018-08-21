@@ -16,25 +16,86 @@
   <link rel="icon" type="image/png" href="./source/favicon-16x16.png" sizes="16x16">
     <link rel="apple-touch-icon" href="./source/pwa-icon.png">
       <meta name="msapplication-TileImage" content="./source/pwa-icon1.png">
+      <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+      <link rel="stylesheet" href="css/style.css">
+
 
 
 
   </head>
 
   <body cz-shortcut-listen="true">
-    <table>
-      <tbody><tr>
-        <td style="width:30%;">
-          <img class="newappIcon" src="source/newapp-icon.png">
-        </td>
-        <td>
-          <h1 id="message">PWA Push Sample!</h1>
-          <p class="description"></p> This is a sample application for Progressive Web Apps and IBM Cloud Push service</span>.
-        </td>
-      </tr>
-    </tbody></table>
 
-                <button class="button buttonBorder" onclick="registerButtonHandler()" name="button"> REGISTER FOR PUSH NOTIFICATIONS</button>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1>IBM Cloud Push Notifications</h1>
+                  <p>Progressive web apps with IBM Cloud Push Service</p>
+                  <button class="btn btn-default page-scroll" onclick="registerButtonHandler()">Register For push</button>
+              </div>
+          </div>
+          <div class="row fff">
+                  
+                  <section class="cards">
+                      <div class="card card--oil">
+                          <div class="card__svg-container">
+                              <img src="source/robust.png" alt="">
+                          </div>
+                          <div class="card__count-container">
+                              <div class="card__count-text">
+                                  <span class="card__count-text--big">Robust</span>
+                              </div>
+                          </div>
+                          <div class="card__stuff-container">
+                              <div class="card__stuff-text"> We provide Push Notification service that is rock solid and fault tolerant.</div>
+                          </div>
+                         
+                      </div>
+                      <div class="card card--oil">
+                          <div class="card__svg-container">
+                              <img src="source/scalable.png" alt="">
+                          </div>
+                          <div class="card__count-container">
+                              <div class="card__count-text">
+                                  <span class="card__count-text--big">Scalable</span>
+                              </div>
+                          </div>
+                          <div class="card__stuff-container">
+                              <div class="card__stuff-text"> Million or more notifications? Don't worry. We'll handle it.</div>
+                          </div>
+                        </div>
+                        <div class="card card--oil">
+                         
+                            <div class="card__svg-container">
+                                <img src="source/uptodate.png" alt="">
+                            </div>
+                            <div class="card__count-container">
+                                <div class="card__count-text">
+                                    <span class="card__count-text--big">Up to Date</span>
+                                </div>
+                            </div>
+                            <div class="card__stuff-container">
+                                <div class="card__stuff-text"> We provide support for all the latest notification features in Android and iOS.</div>
+                            </div>
+                          </div>
+                          <div class="card card--oil">
+                         
+                              <div class="card__svg-container">
+                                  <img src="source/intuitive.png" alt="">
+                              </div>
+                              <div class="card__count-container">
+                                  <div class="card__count-text">
+                                      <span class="card__count-text--big">Intuitive</span>
+                                  </div>
+                              </div>
+                              <div class="card__stuff-container">
+                                  <div class="card__stuff-text"> Feature rich and developer friendly!</div>
+                              </div>
+                            </div>
+                  </section>
+              
+          </div>
+      </div>
+      <script src="scripts/app.js" type="text/javascript"></script> 
 
-  <script src="scripts/app.js" type="text/javascript"></script>
 </body></html>

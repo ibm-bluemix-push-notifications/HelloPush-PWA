@@ -1,0 +1,125 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+.navbar-transparent {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+
+.container {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
+}
+
+.cards {
+  padding-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 480px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.card {
+  width: 19rem;
+  height: 22.5rem;
+  background-color: #f9fbfb;
+  border-radius: 6px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: #5a6c7a;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .05rem;
+  box-shadow: 0 1rem 3rem #aac1c7;
+}
+@media screen and (max-width: 480px) {
+  .card {
+    margin-bottom: 2rem;
+  }
+}
+
+img {
+  width: 100px;
+
+}
+.card__svg-container {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.card__count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.card__count-text {
+  -webkit-transform: translate(0, -0.5rem);
+          transform: translate(0, -0.5rem);
+}
+.card__count-text--big {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.card__stuff-container {
+  margin: 0 auto;
+  border-top: 2px solid #357f98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__stuff-text {
+  text-transform: uppercase;
+  margin-left: .4rem;
+  margin-top: .5rem;
+  -webkit-transform: translate(0, -0.2rem);
+          transform: translate(0, -0.2rem);
+}
+.card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16rem;
+  height: 5.625rem;
+  -webkit-transform: translate(1.5rem, 22.5rem);
+          transform: translate(1.5rem, 22.5rem);
+  pointer-events: none;
+}
+
+.row.fff {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.btn:focus {outline:0;}

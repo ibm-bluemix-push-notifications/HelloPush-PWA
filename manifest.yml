@@ -1,8 +1,8 @@
 applications:
-- path: .
-  memory: 256M
-  instances: 1
-  domain: mybluemix.net
-  name: ibmcloudpwapush
-  host: ibmcloudpwapush
-  disk_quota: 1024M
+  - path: .
+    memory: 256M
+    instances: 1
+    domain: mybluemix.net
+    name: ibmcloudpushpwaapp
+    host: ibmcloudpushpwaapp
+    disk_quota: 1024M
